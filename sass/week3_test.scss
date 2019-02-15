@@ -1,0 +1,9 @@
+
+$sdf: green;
+
+.footer {
+	&.new .copyright {
+		background-color: $sdf;
+	}
+	background-image: inline-image($sass,"png");
+}

@@ -1,0 +1,85 @@
+/* line 3, ../sass/Assignment3.scss */
+.character_intro {
+  float: left;
+  padding: 5px;
+  min-height: 600px;
+  border: 0px solid black;
+  background-color: none;
+  border-radius: 1.25em;
+  box-shadow: 0.1em 0.1em 1.5em gray;
+  border: 1px solid gray;
+}
+
+/* line 14, ../sass/Assignment3.scss */
+.character_intro:hover {
+  border-radius: 1.25em;
+  box-shadow: 0.1em 0.1em 0.5em black;
+  border: 1px solid black;
+}
+
+/* line 20, ../sass/Assignment3.scss */
+.character_head {
+  margin: 5px;
+  border-radius: 1.25em;
+  box-shadow: 0.1em 0.1em 0.5em black;
+  border: 2px solid gray;
+  width: 90%;
+  /*height: 60%;	*/
+}
+
+@media screen and (max-width: 560px) {
+  /* line 30, ../sass/Assignment3.scss */
+  .character_intro {
+    background-color: green;
+  }
+
+  /* line 31, ../sass/Assignment3.scss */
+  .character_intro {
+    width: 96% !important;
+    margin: 1%;
+  }
+}
+@media screen and (min-width: 560px) and (max-width: 1024px) {
+  /* line 35, ../sass/Assignment3.scss */
+  .character_intro {
+    background-color: orange;
+  }
+
+  /* line 36, ../sass/Assignment3.scss */
+  .character_intro {
+    width: 45% !important;
+    margin: 1%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 40, ../sass/Assignment3.scss */
+  .character_intro {
+    background-color: lightblue;
+  }
+
+  /* line 41, ../sass/Assignment3.scss */
+  .character_intro {
+    width: 30% !important;
+    margin: 1%;
+  }
+}
+/* line 44, ../sass/Assignment3.scss */
+.main {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 1024px;
+  border: 0px solid black;
+  background-color: none;
+}
+
+/* line 53, ../sass/Assignment3.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 57, ../sass/Assignment3.scss */
+html {
+  background-color: none;
+  background-image: linear-gradient(white, lightgray, gray);
+}

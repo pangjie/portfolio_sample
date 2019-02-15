@@ -1,0 +1,169 @@
+@import "compass/reset";
+
+
+
+.wholepage {
+	background-color: none;
+	background-image: linear-gradient(white, lightgray, gray);
+}
+
+.head_img {
+	width: 6em;
+	height: 6em;
+	border-radius:0.25em;
+}
+
+.navigation {
+	background-color: none;
+	width: 100%;
+}
+
+.nav_ul ul {
+	padding: 0em;
+}
+.nav_ul li {
+	background-color: none;
+	display: inline;
+	float: left;
+	padding: 0em;
+}
+.nav_ul li a{
+	display: block;
+	width: 6em;
+	height: 6em;
+	line-height: 6em;
+}
+.nav_ul li a:hover {
+    background-color: none;
+    color: black;
+	border-radius:0.25em;
+	box-shadow: 0.1em 0.1em 1em black;
+}
+
+.header {
+ 	background-color: #17A554;
+ 	color: black;
+ 	padding: 0.3em;
+ 	position: relative;
+ 	top: 0em;
+}
+
+.slogan {
+	display: inline-block;
+	font-family: courier;
+}
+
+.shadow {
+	width:6em;
+	height:6em;
+	background-color: none;
+	box-shadow: 0.1em 0.1em 1.5em black;
+}
+
+a {
+	text-align:center;
+	color: black;
+	background-color: none;
+	text-decoration: none;
+}
+
+.head_img {
+    width: 6em;
+    height: 6em;
+    -webkit-animation: ratation 3s;
+    animation: ratation 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes ratation {
+    from {webkit-transform: rotateY(0deg);transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);transform: rotateY(360deg);}
+}
+@keyframes ratation {
+    from {webkit-transform: rotateY(0deg);transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);transform: rotateY(360deg);}
+}
+
+.main_content {
+	height: 55em;
+	border: 1px solid none;
+}
+
+.column_left {
+	width: 22em;
+	margin: 1em;
+	float: left;
+/*	border: 1px solid black;*/
+}
+.s {
+	width:19.7em;
+	float: left;
+	margin: 1em;
+	background-color: none;
+	border-radius:1.25em;
+	box-shadow: 0.1em 0.1em 1.5em gray;
+	border: 1px solid gray;
+}
+.s:hover {
+	box-shadow: 0.1em 0.1em 0.5em black;
+	border: 1px solid black;
+}
+
+
+.column_right {
+	width: 48em;
+	border-color: #17A554;
+	margin: 1em;
+	float: left;
+}
+
+.big_img {
+	width: 45em;
+	float: left;
+	padding: 0em;
+	margin: 1em;
+	background-color: none;
+	border-radius:1.25em;
+	box-shadow: 0.1em 0.1em 1.5em gray;
+	border: 1px solid gray;
+}
+
+.big_img:hover {
+	width: 45em;
+	float: left;
+	background-color: none;
+	border-radius:1.25em;
+	box-shadow: 0.1em 0.1em 0.5em black;
+	border: 1px solid black;
+}
+
+.footer {
+	background-color: #17A554;
+	position: relative;
+	bottom: 1em;
+	padding: 0.3em;
+}
+
+.poem {
+	font-family: courier;
+	float: left;
+	margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

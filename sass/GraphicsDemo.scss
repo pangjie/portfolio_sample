@@ -1,0 +1,83 @@
+html, body {
+        width: 99.9%;
+        height: 99.8%;
+        margin: 0;
+}
+
+#board_container {
+        width: 100%;
+        height: 100%;
+}
+
+#board {
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+}
+
+.button {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        z-index: 1;
+        text-align: center;
+        line-height: 50px;
+        cursor:pointer;
+        color: white;
+}
+
+#reset {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        background-color: gray;
+}
+
+#eraser {
+        position: absolute;
+        top: 5px;
+        left: 60px;
+        background-color: gray;
+}
+
+#black {
+        position: absolute;
+        top: 5px;
+        left: 115px;
+        background-color: black;
+}
+
+#blue {
+        position: absolute;
+        top: 5px;
+        left: 170px;
+        background-color: #6699FF;
+}
+
+#red {
+        position: absolute;
+        top: 5px;
+        left: 225px;
+        background-color: #CF0000;
+}
+
+#cool {
+        width: 200px;
+        height: 49px;
+        position: absolute;
+        top: 5px;
+        left: 280px;
+        background-color: #CF0000;
+}
+
+#status {
+        z-index: 1;
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        font-size: 2em;
+}
+
+.img_for_fun {
+        display: none;
+}
